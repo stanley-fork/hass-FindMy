@@ -690,7 +690,7 @@ wheels = [
 
 [[package]]
 name = "findmy"
-version = "0.9.5"
+version = "0.9.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -701,9 +701,9 @@ dependencies = [
     { name = "srp" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/58/dc/53674c8088089ccfd695a5f3374fa7bbf15dcf90ff0e9bdacb28eabb6e81/findmy-0.9.5.tar.gz", hash = "sha256:525cfb56d8a578e1ace62121daab8fb0c38a377b242ae4117dc654cc385774b6", size = 1117523, upload-time = "2025-11-08T14:09:04.598Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/93/58/3efd35285160c80cb0b5db3c9a6dd5743c04c20ec869ec4182bb205fa8bf/findmy-0.9.6.tar.gz", hash = "sha256:74fe5c53f6985e9d09826a2e25bf51d09d922454c2663355d845880a6bbc44d1", size = 1117820, upload-time = "2025-11-17T21:04:51.827Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/99/99/d90d9e07a7a726187aa97579f16089c82ff29069eacf47983755b4fb54aa/findmy-0.9.5-py3-none-any.whl", hash = "sha256:fbc1a8a7376548b5e57badb23193278cdedbb0dc3b397a3fbd99066f9d0455ad", size = 46904, upload-time = "2025-11-08T14:09:03.634Z" },
+    { url = "https://files.pythonhosted.org/packages/88/f1/e9482270ab4fe56f65c691f4236fd64f0cac8eb776d0b126c650a9d6f371/findmy-0.9.6-py3-none-any.whl", hash = "sha256:4fd77b92363093dfce1ee0c02faeaa5490f85c89cdbfea03fa82d579d9f9a448", size = 47304, upload-time = "2025-11-17T21:04:50.897Z" },
 ]
 
 [[package]]
@@ -867,7 +867,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "findmy", specifier = ">=0.9.5" },
+    { name = "findmy", specifier = ">=0.9.6" },
     { name = "homeassistant", specifier = ">=2025.10.2" },
 ]
 
